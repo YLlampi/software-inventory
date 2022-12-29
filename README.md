@@ -56,6 +56,8 @@
 ## f)Pruebas de Performance:
 
 
-## e)Gestión de Issues:
+## e)Gestión de Issues: 
 
+Para la gestión de issues se uso la herramienta Trello
 
+https://github.com/YLlampi/software-inventory/blob/main/img/Trello.png
