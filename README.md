@@ -43,8 +43,13 @@
 
 ## b) Análisis Estático:
 ### Requisitos
-##### - Sonarqube
+##### - Sonarqube official Plugin
 ##### - sonar-project.properties
+##### - SonarScanner Plugin
+##### - Sonar-project.properties
+
+Debemos crear un proyecto en SonarQube, para poder realizar el análisis estático.
+
 
 Al inicializar SonarQube nos arroja scripts de configuración y de permisos.
 
