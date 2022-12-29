@@ -50,6 +50,7 @@
 
 Debemos crear un proyecto en SonarQube, para poder realizar el análisis estático.
 
+![image](https://github.com/YLlampi/software-inventory/blob/main/img/AnalisisEstatico1.jpeg)
 
 Al inicializar SonarQube nos arroja scripts de configuración y de permisos.
 
