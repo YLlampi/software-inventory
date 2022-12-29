@@ -37,7 +37,7 @@
 - `python manage.py createsuperuser`
 
 # Pipeline de CI/CD
-##### a) Construcción Automática:
+## a) Construcción Automática:
 
 
 ##### b) Análisis Estático:
