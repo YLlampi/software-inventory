@@ -40,22 +40,22 @@
 ## a) Construcción Automática:
 
 
-##### b) Análisis Estático:
+## b) Análisis Estático:
 
 
-##### c) Pruebas Unitarias:
+## c) Pruebas Unitarias:
 
 
-##### d) Pruebas Funcionales:
+## d) Pruebas Funcionales:
 
 
 
-##### e) Pruebas de Seguridad:
+## e) Pruebas de Seguridad:
 
 
-##### f)Pruebas de Performance:
+## f)Pruebas de Performance:
 
 
-##### e)Gestión de Issues:
+## e)Gestión de Issues:
 
 
