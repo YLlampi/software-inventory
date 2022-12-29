@@ -38,9 +38,22 @@
 
 # Pipeline de CI/CD
 ## a) Construcción Automática:
+##### - Sonarqube
+
+Al inicializar SonarQube nos arroja scripts de configuración y de permisos.
+
+![image](https://github.com/YLlampi/software-inventory/blob/main/img/Sonar-permisos.jpeg)
+
+Una vez ejecutado.
+![image](https://github.com/YLlampi/software-inventory/blob/main/img/Sonar-ejecucion.jpeg)
+
+Obtendremos el reporte.
+![image](https://github.com/YLlampi/software-inventory/blob/main/img/Sonar-reporte.jpeg)
+![image](https://github.com/YLlampi/software-inventory/blob/main/img/Sonar-success.jpeg)
 
 
 ## b) Análisis Estático:
+### Requisitos
 
 
 ## c) Pruebas Unitarias:
