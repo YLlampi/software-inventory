@@ -44,6 +44,7 @@
 
 
 ## c) Pruebas Unitarias:
+En las pruebas unitarias se verifica partes del código para verificar su correcto funcionamiento.
 
 ![image](https://github.com/YLlampi/software-inventory/blob/main/img/Unit-test.jpeg)
 ## d) Pruebas Funcionales:
