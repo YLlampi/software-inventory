@@ -36,3 +36,26 @@
 - `python manage.py migrate`
 - `python manage.py createsuperuser`
 
+#Pipeline de CI/CD
+##### a) Construcción Automática:
+
+
+##### b) Análisis Estático:
+
+
+##### c) Pruebas Unitarias:
+
+
+##### d) Pruebas Funcionales:
+
+
+
+##### e) Pruebas de Seguridad:
+
+
+##### f)Pruebas de Performance:
+
+
+##### e)Gestión de Issues:
+
+
