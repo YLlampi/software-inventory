@@ -36,7 +36,7 @@
 - `python manage.py migrate`
 - `python manage.py createsuperuser`
 
-#Pipeline de CI/CD
+# Pipeline de CI/CD
 ##### a) Construcción Automática:
 
 
