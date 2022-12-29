@@ -51,13 +51,27 @@
 
 
 ## e) Pruebas de Seguridad:
+### Requisitos
 
+##### - OWASP ZAP
+##### - URL: https://localhost:8000/
+
+Usamos OWASP ZAP para realizar el ataque
+![image](https://github.com/YLlampi/software-inventory/blob/main/img/OWASP%20ZAP-1.jpeg)
+
+Una vez termino el ataque
+![image](https://github.com/YLlampi/software-inventory/blob/main/img/OWASP%20ZAP-2.jpeg)
+
+Generamos el reporte
+![image](https://github.com/YLlampi/software-inventory/blob/main/img/OWASP%20ZAP-4.jpeg)
 
 ## f)Pruebas de Performance:
 
 
 ## e)Gestión de Issues: 
 
-Para la gestión de issues se uso la herramienta Trello
+Para la gestión de issues se uso la herramienta Trello.
+
 ![image](https://github.com/YLlampi/software-inventory/blob/main/img/Trello.png)
+
 
