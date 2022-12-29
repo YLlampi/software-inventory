@@ -31,7 +31,6 @@ ALLOWED_HOSTS = ["*"]
 
 # Application definition
 
-
 DJANGO_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -67,7 +66,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'crum.CurrentRequestUserMiddleware',
-
 ]
 
 ROOT_URLCONF = 'config.urls'
@@ -126,6 +124,8 @@ USE_L10N = True
 
 USE_TZ = True
 
+# Default primary key field type
+# https://docs.djangoproject.com/en/4.0.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
