@@ -13,12 +13,12 @@ from django.views.generic import CreateView, FormView, DeleteView, UpdateView, V
 from weasyprint import HTML, CSS
 
 from core.pos.forms import SaleForm, ClientForm
-from core.pos.mixins import ValidatePermissionRequiredMixin
+from core.pos.mixins import ValidatePermissionRequiredMixin, ExistsCompanyMixin
 from core.pos.models import Sale, Product, SaleProduct, Client
 from core.reports.forms import ReportForm
 
 
-class SaleListView(ValidatePermissionRequiredMixin, FormView):
+class SaleListView(ExistsCompanyMixin, ValidatePermissionRequiredMixin, FormView):
     form_class = ReportForm
     template_name = 'sale/list.html'
     permission_required = 'view_sale'
@@ -31,10 +31,10 @@ class SaleListView(ValidatePermissionRequiredMixin, FormView):
                 data = []
                 start_date = request.POST['start_date']
                 end_date = request.POST['end_date']
-                search = Sale.objects.all()
+                queryset = Sale.objects.all()
                 if len(start_date) and len(end_date):
-                    search = search.filter(date_joined__range=[start_date, end_date])
-                for i in search:
+                    queryset = queryset.filter(date_joined__range=[start_date, end_date])
+                for i in queryset:
                     data.append(i.toJSON())
             elif action == 'search_products_detail':
                 data = []
@@ -55,13 +55,13 @@ class SaleListView(ValidatePermissionRequiredMixin, FormView):
         return context
 
 
-class SaleCreateView(ValidatePermissionRequiredMixin, CreateView):
+class SaleCreateView(ExistsCompanyMixin, ValidatePermissionRequiredMixin, CreateView):
     model = Sale
     form_class = SaleForm
     template_name = 'sale/create.html'
     success_url = reverse_lazy('sale_list')
-    permission_required = 'add_sale'
     url_redirect = success_url
+    permission_required = 'add_sale'
 
     def post(self, request, *args, **kwargs):
         data = {}
@@ -138,13 +138,13 @@ class SaleCreateView(ValidatePermissionRequiredMixin, CreateView):
         return context
 
 
-class SaleUpdateView(ValidatePermissionRequiredMixin, UpdateView):
+class SaleUpdateView(ExistsCompanyMixin, ValidatePermissionRequiredMixin, UpdateView):
     model = Sale
     form_class = SaleForm
     template_name = 'sale/create.html'
     success_url = reverse_lazy('sale_list')
-    permission_required = 'change_sale'
     url_redirect = success_url
+    permission_required = 'change_sale'
 
     def get_form(self, form_class=None):
         instance = self.get_object()
@@ -240,12 +240,12 @@ class SaleUpdateView(ValidatePermissionRequiredMixin, UpdateView):
         return context
 
 
-class SaleDeleteView(ValidatePermissionRequiredMixin, DeleteView):
+class SaleDeleteView(ExistsCompanyMixin, ValidatePermissionRequiredMixin, DeleteView):
     model = Sale
     template_name = 'sale/delete.html'
     success_url = reverse_lazy('sale_list')
-    permission_required = 'delete_sale'
     url_redirect = success_url
+    permission_required = 'delete_sale'
 
     def dispatch(self, request, *args, **kwargs):
         self.object = self.get_object()
@@ -274,7 +274,6 @@ class SaleInvoicePdfView(LoginRequiredMixin, View):
             template = get_template('sale/invoice.html')
             context = {
                 'sale': Sale.objects.get(pk=self.kwargs['pk']),
-                'comp': {'name': 'ALGORISOFT S.A.', 'ruc': '9999999999999', 'address': 'Milagro, Ecuador'},
                 'icon': f'{settings.MEDIA_URL}logo.png'
             }
             html = template.render(context)
