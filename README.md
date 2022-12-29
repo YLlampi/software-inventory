@@ -63,6 +63,7 @@ Una vez termino el ataque
 ![image](https://github.com/YLlampi/software-inventory/blob/main/img/OWASP%20ZAP-2.jpeg)
 
 Generamos el reporte
+
 ![image](https://github.com/YLlampi/software-inventory/blob/main/img/OWASP%20ZAP-4.jpeg)
 
 ## f)Pruebas de Performance:
