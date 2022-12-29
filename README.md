@@ -44,6 +44,7 @@
 ## b) Análisis Estático:
 ### Requisitos
 ##### - Sonarqube
+##### - sonar-project.properties
 
 Al inicializar SonarQube nos arroja scripts de configuración y de permisos.
 
