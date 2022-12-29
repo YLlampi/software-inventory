@@ -1,5 +1,10 @@
 # Software de Inventario
-
+# Integrantes
+##### 1)YAMIL YONDER LLAMPI HANCCO
+##### 2)ANGELA SOLANGE SUCSO CHOQUE
+##### 3)ERICK JESUS TORRES QUISPE
+##### 4)EVELYN LIZBETH CUSI HANCCO
+##### 5)FREDDY LEONEL HUMPIRI VALDIVIA
 # Instalación
 
 ##### 1) Clonar o descargar el proyecto del repositorio
