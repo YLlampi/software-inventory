@@ -59,5 +59,5 @@
 ## e)Gestión de Issues: 
 
 Para la gestión de issues se uso la herramienta Trello
+![image](https://github.com/YLlampi/software-inventory/blob/main/img/Trello.png)
 
-https://github.com/YLlampi/software-inventory/blob/main/img/Trello.png
