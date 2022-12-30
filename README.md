@@ -70,11 +70,11 @@ Obtendremos el reporte.
 En las pruebas unitarias se verifica partes del código para verificar su correcto funcionamiento.
 
 ![image](https://github.com/YLlampi/software-inventory/blob/main/img/Unit-test.jpeg)
-## d) Pruebas Funcionales:
 
 
 
-## e) Pruebas de Seguridad:
+
+## d) Pruebas de Seguridad:
 ### Requisitos
 
 ##### - OWASP ZAP
@@ -90,10 +90,10 @@ Generamos el reporte
 
 ![image](https://github.com/YLlampi/software-inventory/blob/main/img/OWASP%20ZAP-4.jpeg)
 
-## f)Pruebas de Performance:
 
 
-## e)Gestión de Issues: 
+
+## f)Gestión de Issues: 
 
 Para la gestión de issues se uso la herramienta Trello.
 
