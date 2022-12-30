@@ -40,7 +40,9 @@ El proyecto "Software Inventory" es una aplicación web que está comprendido en
 # Pipeline de CI/CD
 ## a) Construcción Automática:
 
+Para este proyecto, se utilizará un pipeline de Jenkins que se encargará de la construcción automática.
 
+![image](https://github.com/YLlampi/software-inventory/blob/main/img/jk.jpeg)
 
 ## b) Análisis Estático:
 ### Requisitos
