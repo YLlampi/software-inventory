@@ -1,4 +1,5 @@
 # Software de Inventario
+Este proyecto "Software Inventory" es una aplicación web que está comprendido en la recoleccion de datos de inventario. 
 # Integrantes
 ##### 1)YAMIL YONDER LLAMPI HANCCO
 ##### 2)ANGELA SOLANGE SUCSO CHOQUE
