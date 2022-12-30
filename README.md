@@ -44,6 +44,8 @@ Para este proyecto, se utilizará un pipeline de Jenkins que se encargará de la
 
 ![image](https://github.com/YLlampi/software-inventory/blob/main/img/jk.jpeg)
 
+![image](https://github.com/YLlampi/software-inventory/blob/main/img/jk-2.jpeg)
+
 ## b) Análisis Estático:
 ### Requisitos
 ##### - Sonarqube official Plugin
