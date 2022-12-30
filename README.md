@@ -100,5 +100,5 @@ Generamos el reporte
 Para la gestión de issues se uso la herramienta Trello.
 
 ![image](https://github.com/YLlampi/software-inventory/blob/main/img/Trello.png)
-
-
+Trello
+[URL Trello]([https://weasyprint.org/ "weasyprint"](https://trello.com/b/IpZx5E1E/proyecto-final-isii))
