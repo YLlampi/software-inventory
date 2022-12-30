@@ -90,8 +90,11 @@ Generamos el reporte
 ![image](https://github.com/YLlampi/software-inventory/blob/main/img/OWASP%20ZAP-4.jpeg)
 
 Y como resultado del reporte obtenemos.
+
 ![image](https://github.com/YLlampi/software-inventory/blob/main/img/OZ_1.jpeg)
+
 ![image](https://github.com/YLlampi/software-inventory/blob/main/img/OZ_2.jpeg)
+
 ![image](https://github.com/YLlampi/software-inventory/blob/main/img/OZ_3.jpeg)
 
 
