@@ -48,10 +48,9 @@ Para este proyecto, se utilizará un pipeline de Jenkins que se encargará de la
 
 ## b) Análisis Estático:
 ### Requisitos
-##### - Sonarqube official Plugin
+##### - Sonarqube Server
 ##### - sonar-project.properties
-##### - SonarScanner Plugin
-##### - Sonar-project.properties
+
 
 
 
