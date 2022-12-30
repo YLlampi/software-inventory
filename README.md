@@ -51,13 +51,7 @@ Para este proyecto, se utilizará un pipeline de Jenkins que se encargará de la
 ##### - SonarScanner Plugin
 ##### - Sonar-project.properties
 
-Debemos crear un proyecto en SonarQube, para poder realizar el análisis estático.
 
-![image](https://github.com/YLlampi/software-inventory/blob/main/img/AnalisisEstatico1.jpeg)
-
-Configuramos el servidor de Jenkins
-
-![image](https://github.com/YLlampi/software-inventory/blob/main/img/AnalisisEstatico2.jpeg)
 
 Al inicializar SonarQube nos arroja scripts de configuración y de permisos.
 
