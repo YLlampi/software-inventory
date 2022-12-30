@@ -52,6 +52,10 @@ Debemos crear un proyecto en SonarQube, para poder realizar el análisis estáti
 
 ![image](https://github.com/YLlampi/software-inventory/blob/main/img/AnalisisEstatico1.jpeg)
 
+Configuramos el servidor de Jenkins
+
+![image](https://github.com/YLlampi/software-inventory/blob/main/img/AnalisisEstatico2.jpeg)
+
 Al inicializar SonarQube nos arroja scripts de configuración y de permisos.
 
 ![image](https://github.com/YLlampi/software-inventory/blob/main/img/Sonar-permisos.jpeg)
